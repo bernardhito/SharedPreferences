@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.cor1.setOnClickListener {
-            cor = "#FF3700B3"
+            cor = "#FF018786"
             salvarCor(cor)
             snackBar(it)
         }
